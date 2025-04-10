@@ -1,0 +1,30 @@
+{
+  "name": "bold-voice-678f",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "bold-sea-04e7-d1",
+      "database_id": "31009838-54b0-497d-b724-e960648941da"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "bold-voice-678f-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
